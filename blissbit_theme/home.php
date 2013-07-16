@@ -222,15 +222,14 @@
                 
                 <div class="stats">
                   <p class="big">40,000</p>
-                  <h6>Estimated Number of Vacant Lots in Philly</h6>
+                  <h6>Estimated Number of Vacant Properties in Philly</h6>
+
+                  <p class="big">$20,000,000</p>
+                  <h6>Estimated Annual Maintanence Cost to City</h6>
 
 
-                  <p class="big">$3,600,000</p>
-                  <h6>Estimated Cost to City</h6>
-
-
-                  <p class="big">1,103</p>
-                  <h6>Number of Urban Farmers on PUFN List-Serv</h6>
+                  <p class="big">15%</p>
+                  <h6>Average Percentage of Vacant Land in U.S. Cities</h6>
                 </div>
 
             </div><!--/span6 -->
@@ -284,9 +283,9 @@
             <div class="span3">
               <div class="profile-pic"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/profiles/justin.jpg"/></div>
               <h4>Justin Broglie</h4>
-                <h5>Chief Goofbit</h5>
-                <p><a href="mailto:justin@blissbit.org">justin@blissbit.org</a></p>
-                <p> Justin spent most of his youth asking the big questions and dreaming up solutions to the world's problems. He believes in the essential interconnectedness of all of life, and is passionate about harnessing the power of technology to create social impact. Justin studied Digital Media Design at UPenn, and is the founder of <a href="http://www.relativecommotion.com" target="_blank" >Relative Commotion</a>, a boutique web development consulting company</p>
+              <h5>Bilbit Baggins</h5>
+              <p><a href="mailto:justin@blissbit.org">justin@blissbit.org</a></p>
+              <p> Justin spent most of his youth asking the big questions and dreaming up solutions to the world's problems. He believes in the essential interconnectedness of all of life, and is passionate about harnessing the power of technology to create social impact. Justin studied Digital Media Design at UPenn, and is the founder of <a href="http://www.relativecommotion.com" target="_blank" >Relative Commotion</a>, a boutique web development consulting company</p>
 
 
 
@@ -297,7 +296,7 @@
             <div class="span3 span3-margin-left">
               <div class="profile-pic"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/profiles/danielle.jpg"/></div>
               <h4>Danielle Heitmann</h4>
-                <h5>Blissy Missy</h5>
+                <h5>Miss Bliss</h5>
                 <p><a href="mailto:danielle@blissbit.org">danielle@blissbit.org</a></p>
                 <p> Danielle is a budding social entrepreneur with on-the-ground interfaith-based community building experience across Philadelphia. Danielle's Penn philosophy degree helps her everyday because she spends her time asking important conceptual questions to facilitate group discussions and goals.</p>
 
@@ -309,7 +308,7 @@
 
               <div class="profile-pic"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/profiles/ben.jpg"/></div>
               <h4>Ben Rodigas</h4>
-                <h5>Bitbuster Jones</h5>
+                <h5>Bitmonkey</h5>
                 <p><a href="mailto:ben@blissbit.org">ben@blissbit.org</a></p>
                 <p> Ben began his design career in Australia where he worked as an Experience Architect for asuccessful customer experience consultancy. He then worked as a UX Designer for Comcastwhere he designed interfaces for mobile, web, and TV. Ben is fascinated by design and itspotential to be used for personal and social transformation. Ben spends his free timevolunteering for non-profits, meditating, and learning how to do awesome AcroYoga moves with his friends.</p>
               

@@ -9,10 +9,11 @@ get_header(); ?>
 
 
 
-        
-
+ <div class="container">
+	<section id="blog-post">
+		<div class="big-box">
           <?php while ( have_posts() ) : the_post(); ?>
-              <div class="content">
+              
                 
                 <h1 class="entry-title"><?php the_title(); ?></h1>
                 <?php the_content(); ?>
@@ -71,8 +72,8 @@ get_header(); ?>
 
 
 
-
-          </div><!-- /.content -->
+			</div>
+          </section>
 
       
      

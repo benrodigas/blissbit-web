@@ -4,16 +4,33 @@
         
 
         <div class="row-fluid">
-          <div class="span6">
-            <p>&copy; Blissbit | All Rights Reserved</p>
+          <div class="span4">
+            <h4>Photo Feed</h4>
+            <br/>
+            <!-- SnapWidget -->
+<iframe src="http://snapwidget.com/in/?u=Ymxpc3NiaXR8aW58NzB8M3wzfHxub3w1fG5vbmU=" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:225px; height: 225px" ></iframe>
 
-          </div><!-- /span6-->
-          <div class="span6 text-right">
+            
+          </div><!-- /span4-->
+          <div class="span4">
+            <h4>Our Location</h4>
+            <br/>
+            <iframe width="100%" height="150" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=4919+Pentridge+Street,+Philadelphia,+PA&amp;aq=0&amp;oq=4919+pentridge+street&amp;sll=40.115496,-75.2516&amp;sspn=1.243447,2.683411&amp;ie=UTF8&amp;hq=&amp;hnear=4919+Pentridge+St,+Philadelphia,+Pennsylvania+19143&amp;t=m&amp;ll=39.948141,-75.221801&amp;spn=0.00987,0.012875&amp;z=15&amp;output=embed&amp;iwloc=near"></iframe><br />
+
+            <p><a href="http://thecedarworks.com/" target="_blank">The Cedar Works</a><br/>
+            West Philadelphia<br/>
+            4919 Pentridge Street<br/>
+            Philadelphia, PA 19143
 
 
-            <p><a href="mailto:contact@blissbit.com">contact@blissbit.org</a></p>
+            </p>
+          </div><!-- /span4-->
+          <div class="span4 text-right">
 
-          </div><!-- /span6-->
+            <p>&copy; Blissbit | All Rights Reserved <br/>
+            <a href="mailto:contact@blissbit.com">contact@blissbit.com</a></p>
+
+          </div><!-- /span4-->
 
         </div><!-- /row-fluid -->
 

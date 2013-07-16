@@ -7,9 +7,10 @@
 
 
 
-        <div class="container">
+      <div class="container">
 
-           <div class="content">
+       <section id="blog-post">
+			<div class="big-box">
 
 
           	<?php while ( have_posts() ) : the_post(); ?>
@@ -24,6 +25,7 @@
             		
 
           </div>
+        </section>
        
 
 

@@ -348,7 +348,8 @@ margin-bottom: 15px;
 
 
 .box-color {
-  background-color: #ccc;
+  background-color: green;
+  color: white;
 }
 
 
@@ -855,6 +856,8 @@ footer {
     height: auto !important;
     overflow: visible !important;
   }
+
+  
 }
 
 
@@ -862,6 +865,16 @@ footer {
   .profile-pic img {
     max-width: 200px;
   }
+
+  footer .span4.text-right {
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  #blog-post {
+    padding-top: 0;
+  }
+
 }
 
 
@@ -912,6 +925,10 @@ footer {
   }
  
   .big-box {
+    padding: 12px;
+  }
+
+  footer {
     padding: 12px;
   }
 
@@ -1028,6 +1045,8 @@ z-index:-10;
   .box-color {
    height: 380px; 
   }
+
+
 }
 
 
