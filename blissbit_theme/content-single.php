@@ -4,7 +4,7 @@
 
 		<?php if ( 'post' == get_post_type() ) : ?>
 		<div class="entry-meta">
-			<h6>Posted on <?php the_date(); ?> | By <?php the_author_nickname(); ?></h6>
+			<h6>Posted on <?php echo get_the_date(); ?> | By <?php the_author_nickname(); ?></h6>
 		</div><!-- .entry-meta -->
 		<?php endif; ?>
 		<hr>

@@ -1,6 +1,6 @@
 
 
-    <p class="meta"><small><?php the_date(); ?> • <?php the_author_nickname(); ?> <!--• <?php the_category(', '); ?>--></small></p>
+    <p class="meta"><small><?php echo get_the_date(); ?> • <?php the_author_nickname(); ?> <!--• <?php the_category(', '); ?>--></small></p>
 
 
 
