@@ -7,10 +7,6 @@ Template Name: Blog
 get_header(); ?>
 
 
- <div class="mobile-background-img">
-      <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/bg-test-small.jpg">
- </div>
-
  <div class="container">
 	<section id="blog-post">
 		<div class="big-box">
