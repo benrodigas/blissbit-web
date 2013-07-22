@@ -804,6 +804,11 @@ footer {
 @media (max-width: 767px) {
 
 
+  body {
+  padding-right: 0px;
+  padding-left: 0px;
+  }
+
   p.big {
     font-weight: inherit;
     line-height: 26px;
@@ -844,7 +849,7 @@ footer {
   }
 
   .navbar, #landing {
-    margin-left: -10px;
+    margin-left: 0px;
     margin-right: 0px;
   }
 
@@ -900,10 +905,7 @@ footer {
   margin-bottom: 5px;
   }
 
-  body {
-  padding-right: 5px;
-  padding-left: 5px;
-  }
+
 
   #landing {
   position: relative;
@@ -999,11 +1001,7 @@ footer {
 
 @media (min-width: 500px) and (max-width: 650px) {
   
-  body {
-  padding-right: 10px;
-  padding-left: 10px;
-  }
-
+  
   .container {
   max-width: 480px; 
   }
@@ -1034,7 +1032,7 @@ display:none;
 @media (max-width: 500px) {
   
 .mobile-background-img {
-width:98%;
+width:100%;
 margin-bottom:-61%;
 position:fixed;
 z-index:-10;
