@@ -7,8 +7,6 @@ Template Name: Blog
 get_header(); ?>
 
 
-
-
  <div class="container">
 	<section id="blog-post">
 		<div class="big-box">

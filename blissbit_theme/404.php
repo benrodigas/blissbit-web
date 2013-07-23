@@ -11,7 +11,7 @@
 
         <h1>Page Not Found</h1>
 
-        <p class="lead">Sorry about that!</p>
+        <p class="lead">Sorry about that, Blisster!</p>
 
     
 

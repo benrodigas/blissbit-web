@@ -73,14 +73,12 @@
         </div>
       </div><!-- /navbar-inner -->
   </header>
+
+   <div class="mobile-background-img">
+      <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/bg-test-small.jpg">
+  </div>
           
 
-
-
-
-        </div>
-      </div><!-- /navbar-inner -->
-  </header>
 
 
     
