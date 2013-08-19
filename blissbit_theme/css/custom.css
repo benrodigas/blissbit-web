@@ -49,13 +49,25 @@ h2 {
   line-height: 36px;
 }
 
+#blog h2 {
+line-height: 30px;
+}
+
 h3 {
+font-size: 20px;
+line-height: 24px;
+}
+
+
+#projects h3 {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 20px;
   text-align: center;
   margin-bottom: 20px;
 }
+
+
 
 h6 {
   text-transform: uppercase;
@@ -74,7 +86,10 @@ p.big {
   text-align: right;
 }
 
-
+.blissbit-copywrite {
+ text-align: center;
+ margin-top: 50px;
+}
 
 
 
@@ -516,7 +531,7 @@ footer {
   font-size: 40px;
   }
 
-  .row-fluid .span3 {
+  #approach .row-fluid .span3, #team .row-fluid .span3 {
   display: block;
   float: left;
   min-height: 30px;
@@ -579,6 +594,128 @@ footer {
   #landing-slogan h1 {
   font-size: 45px;
   }
+
+}
+
+
+
+@media (min-width: 979px) {
+  .box-color {
+  height: 385px;
+  padding: 19px;
+  margin-bottom: 20px;
+  }
+}
+
+
+
+@media (min-width: 767px) and (max-width:979px)  {
+
+  .box-color {
+  height: 420px;
+  padding: 19px;
+  margin-bottom: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 500px) and (max-width: 979px) {
+
+  #landing {
+  position: relative;
+  height: 550px;
+  }
+ 
+}
+
+
+@media (min-width: 980px) {
+  .nav-collapse.collapse {
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  
+}
+
+
+@media (max-width: 979px) {
+  body {
+    padding-top: 0;
+  }
+
+
+  .navbar-fixed-top .navbar-inner {
+    padding: 0px 20px;
+  }
+
+  #contact-inner {
+    padding: 40px;
+  }
+
+
+  .navbar-inner {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+}
+
+
+  @media (max-width: 850px) {
+
+  .navbar-inner {
+    min-height: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
+    background-image: none;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    border-top: 5px solid green;
+    border-bottom: 1px solid #ccc;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    filter: none;
+    }
+
+     .navbar .nav .active > a, .navbar .nav .active > a:hover {
+    border-bottom: none;
+    }
+
+    .navbar .btn-navbar {
+    margin-top: 10px;
+    }
+
+    .logo-inner {
+    width: 200px;
+    height: 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 30px;
+    line-height: 0px;
+    margin-top: 10px;
+    }
+
+    .navbar .logo {
+    float: left;
+    display: block;
+    width: 0px;
+    height: 40px;
+    padding: 0px;
+    margin-top: 15px;
+    }
 
 }
 
@@ -651,156 +788,6 @@ footer {
 }
 
 
-@media (min-width: 979px) {
-  .box-color {
-  height: 385px;
-  padding: 19px;
-  margin-bottom: 20px;
-  }
-}
-
-
-
-@media (min-width: 767px) and (max-width:979px)  {
-
-  .box-color {
-  height: 420px;
-  padding: 19px;
-  margin-bottom: 20px;
-  }
-}
-
-@media (max-width: 767px) {
- 
-  #approach .span3 {
-  display: block;
-  float: left;
-  min-height: 30px;
-  margin-left: 2.127659574468085%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  width:48.62%;
-  } 
-
-  #approach .row-fluid [class*="span"]:first-child {
-  margin-left: 0;
-  }
-
-  #approach .row-fluid .span3-margin-left {
-  margin-left: 0px;
-  }
-
-  #approach h2 {
-  font-size: 15px;
-  }
-
-  #approach p {
-  font-size: 12px;
-  line-height: 1.5;
-  }
-
-  .approach-row-fluid-margin {
-  margin-top: 15px;
-  }
-  
-}
-
-
-
-
-
-
-
-
-
-@media (min-width: 500px) and (max-width: 979px) {
-
-  #landing {
-  position: relative;
-  height: 550px;
-  }
- 
-}
-
-
-
-
-@media (max-width: 979px) {
-  body {
-    padding-top: 0;
-  }
-
-
-  .navbar .nav .active > a, .navbar .nav .active > a:hover {
-    border-bottom: none;
-  }
-
-  .navbar-fixed-top .navbar-inner {
-    padding: 0px 20px;
-  }
-
-  #contact-inner {
-    padding: 40px;
-  }
-
-
-  .navbar-inner {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-}
-
-
-  @media (max-width: 850px) {
-
-  .navbar-inner {
-    min-height: 0px;
-    padding-right: 20px;
-    padding-left: 20px;
-    background-color: white;
-    background-color: rgba(255, 255, 255, 0.9);
-    background-image: none;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
-    border-top: 5px solid green;
-    border-bottom: 1px solid #ccc;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    filter: none;
-    }
-
-    .navbar .btn-navbar {
-    margin-top: 10px;
-    }
-
-    .logo-inner {
-    width: 200px;
-    height: 0px;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 1px;
-    font-size: 30px;
-    line-height: 0px;
-    margin-top: 10px;
-    }
-
-    .navbar .logo {
-    float: left;
-    display: block;
-    width: 0px;
-    height: 40px;
-    padding: 0px;
-    margin-top: 15px;
-    }
-
-}
-
-
-
 @media (max-width: 767px) {
 
 
@@ -816,10 +803,13 @@ footer {
     margin-bottom: 20px;
   }
 
+   
   .navbar .nav > li > a {
-  padding: 0px 0px 5px 0px;
+  padding: 0px 0px 5px 10px;
+  margin-left: 0px;
   font-size: 18px;
   }
+  
 
   .navbar .nav > li > a:last-child {
   margin-bottom: 5px;
@@ -854,22 +844,47 @@ footer {
   }
 
 
-  
+  #approach .span3 {
+  display: block;
+  float: left;
+  min-height: 30px;
+  margin-left: 2.127659574468085%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width:48.62%;
+  } 
 
-}
-
-
-@media (min-width: 980px) {
-  .nav-collapse.collapse {
-    height: auto !important;
-    overflow: visible !important;
+  #approach .row-fluid [class*="span"]:first-child {
+  margin-left: 0;
   }
 
-  
-}
+  #approach .row-fluid .span3-margin-left {
+  margin-left: 0px;
+  }
 
+  #approach h2 {
+  font-size: 15px;
+  }
 
-@media (max-width: 767px) {
+  #approach p {
+  font-size: 12px;
+  line-height: 1.5;
+  }
+
+  .approach-row-fluid-margin {
+  margin-top: 15px;
+  }
+
+  .header-margin {
+  margin-bottom: 15px;  
+  }
+
+  #blog .row-fluid .span6 {
+  float: left;
+  width: 48.61878453038674%;
+  }
+
   .profile-pic img {
     max-width: 200px;
   }
@@ -883,7 +898,20 @@ footer {
     padding-top: 0;
   }
 
+  .blissbit-copywrite {
+   text-align: center;
+   margin-top: 20px;
+  }
+
+  .photo-feed-margin-bottom {
+  margin-bottom: 15px;
+  }
+
+
 }
+
+
+
 
 
 
@@ -979,7 +1007,7 @@ footer {
   font-size: 15px;
   }
 
-  h3 {
+  #projects h3 {
   font-size: 15px;
   margin-bottom: 20px;
   line-height: 23px;
@@ -1094,6 +1122,7 @@ footer.comment-meta, footer.entry-meta {
 }
 
 h2.entry-title {
+  font-size: 
   margin-bottom: 0;
 }
 
@@ -1608,5 +1637,93 @@ border: 1px solid #CCC;
 
 #dcssb-float.dc-social-float .tab {
 display: none;
+}
+
+@media (max-width: 500px){
+
+#respond {
+width: 85.9%;
+}
+
+#respond input[type=text] {
+width: 95%;
+}
+
+
+}
+
+
+
+
+
+
+/*_______ INSTAGRAM ________*/
+
+
+@media (min-width: 1200px) {
+.photo-feed {
+margin-bottom: 20px;
+}
+.instagram_iphone { display: none !important; }
+.instagram_ipad_p { display: none !important; }
+.instagram_inbetween { display: none !important; }
+.instagram_iphone_ls { display: none !important; }
+.instagram_desktop { display: none !important; }
+}
+
+@media all and (max-width: 1199px) and (min-width: 979px) {
+.photo-feed {
+margin-bottom: 20px;
+}
+.instagram_iphone { display: none !important; }
+.instagram_ipad_p { display: none !important; }
+.instagram_inbetween { display: none !important; }
+.instagram_iphone_ls { display: none !important; }
+.instagram_desktop_large { display: none !important; }
+}
+
+
+@media all and (max-width: 978px) and (min-width: 769px) {
+.photo-feed {
+margin-bottom: 20px;
+}
+.instagram_iphone { display: none !important; }
+.instagram_ipad_p { display: none !important; }
+.instagram_desktop { display: none !important; }
+.instagram_iphone_ls { display: none !important; }
+.instagram_desktop_large { display: none !important; }
+}
+
+@media all and (max-width: 768px) and (min-width: 481px) {
+.photo-feed {
+margin-bottom: 10px;
+}
+.instagram_desktop { display: none !important; }
+.instagram_inbetween { display: none !important; }
+.instagram_iphone { display: none !important; }
+.instagram_iphone_ls { display: none !important; }
+.instagram_desktop_large { display: none !important; }
+}
+
+@media all and (max-width: 480px) and (min-width: 321px) {
+.photo-feed {
+margin-bottom: 10px;
+}
+.instagram_desktop { display: none !important; }
+.instagram_ipad_p { display: none !important; }
+.instagram_inbetween { display: none !important; }
+.instagram_iphone { display: none !important; }
+.instagram_desktop_large { display: none !important; }
+}
+
+@media (max-width: 320px) {  
+.photo-feed {
+margin-bottom: 10px;
+}
+.instagram_iphone_ls { display: none !important; }
+.instagram_desktop { display: none !important; }
+.instagram_inbetween { display: none !important; }
+.instagram_ipad_p { display: none !important; }
+.instagram_desktop_large { display: none !important; }  
 }
 

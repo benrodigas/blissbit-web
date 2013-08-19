@@ -306,7 +306,7 @@
               <h4>Ben Rodigas</h4>
                 <h5>Bitmonkey</h5>
                 <p><a href="mailto:ben@blissbit.org">ben@blissbit.org</a></p>
-                <p> Ben began his design career in Australia where he worked as an Experience Architect for asuccessful customer experience consultancy. He then worked as a UX Designer for Comcastwhere he designed interfaces for mobile, web, and TV. Ben is fascinated by design and itspotential to be used for personal and social transformation. Ben spends his free timevolunteering for non-profits, meditating, and learning how to do awesome AcroYoga moves with his friends.</p>
+                <p> Ben began his design career in Australia where he worked as an Experience Architect for asuccessful customer experience consultancy. He then worked as a UX Designer for Comcast where he designed interfaces for mobile, web, and TV. Ben is fascinated by design and its potential to be used for personal and social transformation. Ben spends his free time volunteering for non-profits, meditating, and learning how to do awesome AcroYoga moves with his friends.</p>
               
 
 
@@ -322,12 +322,12 @@
 
         <section id="blog">
         <div class="big-box">
-            <div class="row-fluid">
-          <div class="span9">
+            <div class="row-fluid header-margin">
+          <div class="span6">
               <h1>Blog</h1>
             </div>
 
-            <div class="span3">
+            <div class="span6">
               <a href="<?php bloginfo( 'url' ); ?>/blog" class="btn pull-right">View More Posts</a>
             </div>
         </div><!--/.row-fluid-->
