@@ -8,7 +8,7 @@
 
 
     <!-- CSS -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Lato:400,700' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" href="<?php bloginfo( 'stylesheet_directory' ); ?>/img/fav.ico" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/bootstrap-responsive.css" />
