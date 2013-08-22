@@ -75,7 +75,7 @@
   </header>
 
    <div class="mobile-background-img">
-      <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/bg-test-small.jpg">
+      <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/bg-mobile.jpg">
   </div>
           
 
