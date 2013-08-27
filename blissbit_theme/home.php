@@ -266,7 +266,7 @@
           <div class="row-fluid"> 
 
             <div class="span3">
-              <div class="profile-pic"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/profiles/cary.jpg"/></div>
+              <div class="profile-pic"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/profiles/cary.png"/></div>
               <h4>Cary Betagole</h4>
                 <h5>Public Bitlations</h5>
                 <p><a href="mailto:cary@blissbit.org">cary@blissbit.org</a></p>
@@ -277,7 +277,7 @@
             </div><!--/span3 -->
 
             <div class="span3">
-              <div class="profile-pic"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/profiles/justin.jpg"/></div>
+              <div class="profile-pic"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/profiles/justin.png"/></div>
               <h4>Justin Broglie</h4>
               <h5>Bilbit Baggins</h5>
               <p><a href="mailto:justin@blissbit.org">justin@blissbit.org</a></p>
@@ -290,7 +290,7 @@
             
 
             <div class="span3 span3-margin-left">
-              <div class="profile-pic"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/profiles/danielle.jpg"/></div>
+              <div class="profile-pic"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/profiles/danielle.png "/></div>
               <h4>Danielle Heitmann</h4>
                 <h5>Miss Bliss</h5>
                 <p><a href="mailto:danielle@blissbit.org">danielle@blissbit.org</a></p>
@@ -299,10 +299,10 @@
 
 
             </div><!--/span3 -->
-
+  
             <div class="span3">
 
-              <div class="profile-pic"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/profiles/ben.jpg"/></div>
+              <div class="profile-pic"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/profiles/ben.png"/></div>
               <h4>Ben Rodigas</h4>
                 <h5>Bitmonkey</h5>
                 <p><a href="mailto:ben@blissbit.org">ben@blissbit.org</a></p>
